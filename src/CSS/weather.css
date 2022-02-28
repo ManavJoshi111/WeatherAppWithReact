@@ -1,0 +1,124 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+html {
+  height: 100%;
+}
+body {
+  height: 100vh;
+  width: 100vw;
+  position: relative;
+}
+.bgimage {
+  position: absolute;
+  height: 100vh;
+  width: 100vw;
+  z-index: -1;
+  background-image: url("https://www.maketecheasier.com/assets/uploads/2020/06/Featured-Image-Live-Weather-Wallpapers-Android.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  filter: blur(4px);
+  -webkit-filter: blur(4px);
+}
+.title {
+  font-size: 70px;
+  color: yellow;
+}
+.inputData {
+  margin-top: 10px;
+}
+.box {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  top: 25%;
+  left: 30%;
+}
+
+.box input {
+  height: 30px;
+  width: 40vw;
+  background-color: aliceblue;
+}
+.box button {
+  background-color: #ea4c89;
+  border-radius: 8px;
+  border-style: none;
+  box-sizing: border-box;
+  color: #ffffff;
+  cursor: pointer;
+  display: inline-block;
+  font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial,
+    sans-serif;
+  font-size: 1.5em;
+  font-weight: 500;
+  height: 34px;
+  line-height: 20px;
+  list-style: none;
+  margin: 0;
+  outline: none;
+  padding: 1px 16px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  transition: color 100ms;
+  vertical-align: baseline;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  margin-top: 3px;
+}
+
+.box button:hover,
+.box button:focus {
+  background-color: #c23f71;
+}
+
+#search {
+  background-color: lightskyblue;
+  border-radius: 6px;
+  padding: 10px;
+  font-size: 20px;
+}
+#search:hover {
+  border: 2px solid red;
+}
+.temp {
+  font-size: 0.1em;
+}
+.info {
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+  justify-content: center;
+  align-items: center;
+}
+
+.info h1 {
+  font-size: 2.5em;
+}
+.fas {
+  font-size: 0.6em;
+}
+.location {
+  margin: 0;
+}
+#city {
+  border: 0;
+  font-size: 0.6em;
+  padding: 0;
+  margin: 0;
+}
+.info h3 {
+  margin: 0;
+  font-size: 2em;
+}
+.info .location {
+  font-size: 5em;
+}
